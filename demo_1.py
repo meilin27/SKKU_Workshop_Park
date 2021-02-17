@@ -153,7 +153,7 @@ z_t = np.dot(test_X, theta)
 # calculating the predicted probability using sigmoid function.
 pred_probs= 1 / (1 + np.exp(-z_t))
 
-# We set the probability threshold at 0.5 for classification, otherwise set at 0.
+# We set the probability threshold at 0.5 for classification: larger than 0.5 1, otherwise set at 0.
 pred_labels = np.where(pred_probs > 0.5, 1, 0)
 pred_labels = [i[0] for i in pred_labels] # format better for comparing to the true labels.
 
