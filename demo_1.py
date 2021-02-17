@@ -1,7 +1,7 @@
 ## Baekkwan Park
 ## any questions contact: baekkwan.park@gmail.com
 
-## You can find what we discuss in the workshop.
+## You can find what we discuss in the workshop in this demo file.
 ## This is a .py file, but you can also use .ipynb file in this folder.
 
 import os
@@ -10,7 +10,7 @@ import pandas as pd # importing pandas for data read and management.
 # 1. Reading Data
 # reading data with pandas
 # Sample_Data.csv is in this folder.
-DATA = DATA = pd.read_csv('Sample_Data.csv')
+DATA = pd.read_csv('Sample_Data.csv')
 
 # reading texts and annotations
 texts = DATA['texts']
